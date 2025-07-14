@@ -1,4 +1,4 @@
 # login-form
-A simple HTML/CSS login form demo 
+A simple HTML login form demo 
 
 (https://tyang019.github.io/login-form/)
