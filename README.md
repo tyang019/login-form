@@ -6,5 +6,3 @@ A simple HTML login form demo
 Login page:
 https://tyang019.github.io/login-form/login.html
 
-Dashboard page:
-https://tyang019.github.io/login-form/dashboard.html
