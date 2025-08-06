@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+        button{
+        background-color: rgb(232, 190, 65);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        height: 32px;
+        width: 70px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: box-shadow 1s;
+    }
+    button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15s);
+        background-color: rgb(255, 132, 0);
+        color: black;
+    }
+    .login-style{
+        color: rgb(34, 195, 34);
+    }
+    label{
+        color: rgb(34, 125, 195);
+        font-size: 20px;
+        margin: 10px;
+        margin-left:20px;
+    }
+
+</style>
+
+<body>
+    <h1 class="login-style">Login Form</h1>
+    <form>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" />
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password"/>
+    </div>
+    <div>
+        <label for="Confirm Password">Confirm <span> Password</span></label>
+        <input type="password" id="Confirm Password" name="Confirm Password" required/>
+    </div>
+    <div>
+        <label>Age</label>
+        <input type="Age" id="Age" name="Age" min="1" required/>
+    </div>
+    <div>
+        <label>Date</label>
+        <input type="Date" id="Date" name="Date" required/> 
+    </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
